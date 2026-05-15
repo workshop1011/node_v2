@@ -1,0 +1,12 @@
+# 환경 변수 및 API 키 (절대 올라가면 안 되는 파일)
+.env
+key.env
+
+# 파이썬 캐시 파일 (찌꺼기 파일들)
+__pycache__/
+*.pyc
+cas/**/__pycache__/
+
+# 혹시 모를 로컬 데이터베이스 또는 임시 파일
+*.sqlite3
+.DS_Store
